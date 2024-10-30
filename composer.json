@@ -1,0 +1,22 @@
+{
+    "name": "latest-news-posts/latest-news-posts",
+    "type": "project",
+    "description": "Responsive Latest News/Posts/Feeds/Articles is easy to use. You can add as many News/Posts/Feeds/Articles as you want. If you want to modify or want to add extra features, please contact the owner faferdaus@gmail.com.",
+    "license": "GNU",
+    "autoload": {
+        "files": [
+            "inc/helpers.php"
+        ],
+        "psr-4": {
+            "ResponsiveLatestNews\\": "Classes/"
+        }
+    },
+    "require": {
+        "htmlburger/carbon-fields-plugin": "^3.3"
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true
+        }
+    }
+}

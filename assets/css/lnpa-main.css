@@ -1,0 +1,169 @@
+/* Main CSS */
+.lnpa-wrapper{
+    max-width: 1440px !important;
+    flex-wrap: wrap;
+    padding: 25px 15px 35px 15px;
+}
+.mx-auto{
+margin: 0 auto !important;
+}
+.lnpa-news-item{
+    margin: 15px;
+}
+.lnpa-relative{
+    position: relative;
+}
+.lnpa-absolute{
+    position: absolute;
+}
+.lnpa-items-center{
+    align-items: center;
+}
+.lnpa-justify-center{
+    justify-content: center;
+}
+.text-center{
+text-align: center;
+}
+.lnpa-db{
+    display: block;
+}
+
+.lnpa-alert{
+    text-align: center;
+    color: #bb7d13;
+    width: 100%;
+    font-size: 23px;
+    font-style: italic;
+}
+
+.lnpa-article-inner {
+    box-shadow: 1px 2px 6px rgb(0 0 0 / .12);
+    transition: box-shadow .35s ease;
+    background-color: #fff;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    font: inherit;
+    font-size: 100%;
+}
+
+.lnpa-day-month {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    z-index: 2;
+    display: inline-block;
+    min-width: 53px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 9px rgba(0,0,0,.1);
+    color: #000;
+    text-align: center;
+    line-height: 1;
+}
+.lnpa-day{
+    font-size: 25px;
+    padding:6px 0 6px 0;
+}
+.lnpa-month{
+    font-size: 18px;
+    padding: 8px 0 8px 0;
+    background-color: #851616;
+    color: #fff;
+}
+.lnpa-meta-ul{
+    margin: 7px 0 26px 0px;
+    padding: 0;
+    list-style: none;
+}
+.lnpa-meta-ul li:last-child{border-right:0px !important;}
+.lnpa-meta-ul li{
+    display: inline-block;
+    color: #777;
+    border-right: 1px solid #ccc !important;
+    padding: 0 12px 0 8px;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.lnpa-meta-ul li a{color: #e8465f;text-decoration: none;}
+
+.lnpa-article-body{
+    padding: 0 25px 30px 25px;
+}
+.lnpa-article-title a{
+    color: #183f72;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 600;
+    padding: 0 0 11px 0;
+    display: block;
+}
+.lnpa-article-content p{
+    color: #777;
+    font-size: 16px;
+    line-height: 25px;
+}
+.lnpa-article-content a{
+    text-decoration: none;
+    color: #e8465f;
+    font-weight: 600;
+    display: block;
+    padding: 10px 0 0 0;
+}
+.lnpa-read-more span {
+    font-size: 1.5em;
+    margin-left: 8px;
+    transition: margin-left .2s linear;
+}
+.lnpa-thumbnail picture img{
+    max-width: 100%;
+    vertical-align: middle;
+    border: none;
+    width: 100%;
+}
+
+@media screen and (min-width:1024px) and (max-width:1139px){
+    .lnpa-wrapper {
+        width: 920px !important;
+    }
+    .lnpa-news-item {
+        max-width: 266px !important;
+    }
+}
+@media screen and (min-width:768px) and (max-width:1023px){
+    .lnpa-wrapper {
+        width: 695px !important;
+        justify-content: center;
+    }
+    .lnpa-news-item {
+        max-width: 300px !important;
+    }
+    .lnpa-thumbnail picture img {
+        height: 250px !important;
+    }
+    .lnpa-article-inner {
+        min-height: 400px !important;
+    }
+    .lnpa-article-body{
+        padding: 0 15px 20px 15px !important;
+    }
+}
+@media screen and (max-width:767px) {
+    .lnpa-wrapper {
+        width: 100% !important;
+        justify-content: center;
+    }
+    .lnpa-thumbnail picture img {
+        height: auto !important;
+    }
+    .lnpa-article-inner {
+        min-height: 400px !important;
+    }
+    .lnpa-article-body{
+        padding: 0 15px 20px 15px !important;
+    }
+}
